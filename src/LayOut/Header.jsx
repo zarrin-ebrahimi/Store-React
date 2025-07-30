@@ -7,6 +7,7 @@ import { IoIosSearch } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
+import { FaPinterestSquare } from "react-icons/fa";
 import Sidebar from "./Sidebar";
 export default function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -20,6 +21,7 @@ export default function Header() {
           className="md:hidden"
         />
         <div className="flex-row gap-x-2 hidden md:flex">
+          <FaPinterestSquare  size={20}/>
           <IoLogoInstagram  size={20}/>
           <IoLogoWhatsapp  size={20}/>
           <FaTelegramPlane   size={20}/>
@@ -28,7 +30,7 @@ export default function Header() {
 
       <img src="./2222.png" alt="" className="w-15 " />
       <div className="flex gap-x-2 ">
-        <div className=" flex-row gap-x-2 hidden md:flex ">
+        <div className=" flex-row gap-x-2 hidden md:flex items-center ">
           <button type="button">
             <CiUser size={24} />
           </button>
@@ -36,7 +38,7 @@ export default function Header() {
             <IoIosHeartEmpty size={24} />
           </button>
           <button type="button">
-            <IoIosSearch size={24} />
+            <IoIosSearch size={26} />
           </button>
         </div>
         <button type="button" onClick={() => setIsSidebarOpen(true)}>
