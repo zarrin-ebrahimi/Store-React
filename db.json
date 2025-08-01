@@ -56,5 +56,79 @@
       "image": "/images/suggetion/manto-7.jpg",
       "off" : "20"
     }
+  ],
+  "bestSellers": [
+    {
+      "id": 1,
+      "name": "مانتو بهاره",
+      "price": 1850000,
+      "discountPrice": 1490000,
+      "imagePrimary": "/images/bestSellers/manto_1.jpg",
+      "imageHover": "/images/bestSellers/manto_1_hover.jpg",
+      "colors": ["#D95D39", "#6B7AA1", "#F2C57C"]
+    },
+    {
+      "id": 2,
+      "name": "مانتو اداری",
+      "price": 2450000,
+      "discountPrice": 1990000,
+      "imagePrimary": "/images/bestSellers/manto_2.jpg",
+      "imageHover": "/images/bestSellers/manto_2_hover.jpg",
+      "colors": ["#3F5EAB", "#E89F9F", "#4C9A2A", "#8C6EFF"]
+    },
+    {
+      "id": 3,
+      "name": "مانتو دخترانه",
+      "price": 1350000,
+      "discountPrice": 1090000,
+      "imagePrimary": "/images/bestSellers/manto_3.jpg",
+      "imageHover": "/images/bestSellers/manto_3_hover.jpg",
+      "colors": ["#F49AC2", "#2D8F6F", "#FFD166"]
+    },
+    {
+      "id": 4,
+      "name": "مانتو مجلسی",
+      "price": 2950000,
+      "discountPrice": 2490000,
+      "imagePrimary": "/images/bestSellers/manto_4.jpg",
+      "imageHover": "/images/bestSellers/manto_4_hover.jpg",
+      "colors": ["#1F2E5A", "#C77DFF", "#FFB800", "#4A4E69"]
+    },
+    {
+      "id": 5,
+      "name": "مانتو کژوال",
+      "price": 1650000,
+      "discountPrice": 1390000,
+      "imagePrimary": "/images/bestSellers/manto_5.jpg",
+      "imageHover": "/images/bestSellers/manto_5_hover.jpg",
+      "colors": ["#5AA897", "#F28C38", "#E0AFA0"]
+    },
+    {
+      "id": 6,
+      "name": "مانتو سنتی",
+      "price": 2150000,
+      "discountPrice": 1790000,
+      "imagePrimary": "/images/bestSellers/manto_6.jpg",
+      "imageHover": "/images/bestSellers/manto_6_hover.jpg",
+      "colors": ["#8B5E3C", "#C0D6DF", "#A64AC9", "#F0E3CA"]
+    },
+    {
+      "id": 7,
+      "name": "مانتو جدید",
+      "price": 2550000,
+      "discountPrice": 2190000,
+      "imagePrimary": "/images/bestSellers/manto_7.jpg",
+      "imageHover": "/images/bestSellers/manto_7_hover.jpg",
+      "colors": ["#FF6B6B", "#4ECDC4", "#556270"]
+    },
+    {
+      "id": 8,
+      "name": "مانتو مدل دار",
+      "price": 2750000,
+      "discountPrice": 2290000,
+      "imagePrimary": "/images/bestSellers/manto_8.jpg",
+      "imageHover": "/images/bestSellers/manto_8_hover.jpg",
+      "colors": ["#264653", "#2A9D8F", "#E9C46A", "#F4A261"]
+    }
   ]
 }

@@ -6,11 +6,12 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import ProductCard from "./ProductCard";
-import { useNavigate } from "react-router-dom";
+import Title from "../Title";
+// import { useNavigate } from "react-router-dom";
 
 export default function TopProductsSlider() {
   const [products, setProducts] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -23,19 +24,8 @@ export default function TopProductsSlider() {
 
   return (
     <section className="py-6 px-4 relative">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">پیشنهادهای شگفت انگیز
-            <div className="w-full h-0.5 rounded-full bg-amber-500 mt-2"></div>
-        </h2>
-        <button
-          onClick={() => navigate("/products")}
-          className="bg-amber-400 px-6 py-2 rounded text-gray-900 " 
-          type="button"
-        >
-          مشاهده همه
-        </button>
-      </div>
 
+      <Title   title="پیشنهادهای شگفت انگیز!"/>
       <button
         ref={prevRef}
         className="absolute top-1/2 left-1 -translate-y-1/2 bg-gray-50 text-black p-2 rounded-full shadow-md hover:bg-purple-600 hover:text-white z-10"

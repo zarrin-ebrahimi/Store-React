@@ -4,14 +4,18 @@ import MenuItems from '../LayOut/MenuItems'
 import Landing from '../Components/Landing'
 import SuggestionSlider from '../Components/BestSuggestion.jsx/SuggestionSlider'
 import Banner from '../Components/Banner'
+import BestSellers from '../Components/BestSellars/BestSellers'
+import Footer from '../LayOut/Footer'
 export default function Home() {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto md:px-24'>
         <Header/>
         <MenuItems/>
         <Landing/>
         <SuggestionSlider/>
         <Banner/>
+        <BestSellers/>
+        <Footer/>
     </div>
   )
 }
