@@ -5,6 +5,8 @@ import Landing from '../Components/Landing'
 import SuggestionSlider from '../Components/BestSuggestion.jsx/SuggestionSlider'
 import Banner from '../Components/Banner'
 import BestSellers from '../Components/BestSellars/BestSellers'
+import MostViewedProduct from '../Components/MostViewedProduct/MostViewedProduct'
+import BlogSection from '../Components/Blog/BlogSection'
 import Footer from '../LayOut/Footer'
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         <SuggestionSlider/>
         <Banner/>
         <BestSellers/>
+        <MostViewedProduct/>
+        <BlogSection/>
         <Footer/>
     </div>
   )

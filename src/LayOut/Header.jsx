@@ -31,8 +31,13 @@ export default function Header() {
       <img src="./2222.png" alt="" className="w-15 " />
       <div className="flex gap-x-2 ">
         <div className=" flex-row gap-x-2 hidden md:flex items-center ">
-          <button type="button">
+          <button type="button"  className="relative">
             <CiUser size={24} />
+            <div className="absolute flex items-center gap-x-1 w-36 py-1 -left-12  bg-amber-200 px-5">
+              <span>ورود</span>
+              /
+              <span>ثبت نام</span>
+            </div>
           </button>
           <button type="button">
             <IoIosHeartEmpty size={24} />

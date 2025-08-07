@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home' 
+import LikedProduct from './Pages/LikedProduct' 
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 <BrowserRouter>
  <Routes>
    <Route path='/' element={<Home/>}/>
+   <Route path='/liked-product' element={<LikedProduct/>}/>
  </Routes>
 </BrowserRouter>
   )

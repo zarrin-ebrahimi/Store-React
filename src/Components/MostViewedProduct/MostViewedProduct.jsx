@@ -1,11 +1,12 @@
-import ProductCardBestSeler from "./ProductCardBestSeler";
+
+// import ProductCardBestSeler from "../BestSellars/ProductCardBestSeler"; 
+import ProductCardMostViewed from './ProductCardMostViewed'
 import Title from "../Title";
-// import useBestSellers from "./useBestSellers"; 
 import { useFetchProducts } from "../../Hooks/useFetchProducts";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, A11y } from "swiper/modules";
-export default function BestSellers() {
-  const { data: products = [], loading, error, refetch } = useFetchProducts('http://localhost:4000/bestSellers');
+export default function MostViewedProduct() {
+  const { data: products = [], loading, error, refetch } = useFetchProducts('http://localhost:4000/mostViewedProduct');
 
   if (loading) {
     return (
@@ -51,7 +52,7 @@ export default function BestSellers() {
         breakpoints={{
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
-          1024: { slidesPerView: 4 },
+          1024: { slidesPerView: 6 },
         }}
         a11y={{ enabled: true }}
         className="py-4"
@@ -59,7 +60,7 @@ export default function BestSellers() {
         {products.map((product) => (
           <SwiperSlide key={product.id}>
             <div className="px-2" key={product.id}>
-              <ProductCardBestSeler product={product} />
+              <ProductCardMostViewed product={product} />
             </div>
           </SwiperSlide>
         ))}
