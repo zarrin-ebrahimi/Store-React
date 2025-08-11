@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function BlogCard({ blog }) {
   return (
     <div>
       <img src={blog.cover} alt="" />
-      <h4 className="hover:text-orange-400 my-2 ">{blog.title}</h4>
+      <div  className="hover:text-orange-400 my-2 ">
+        <Link to={`/blogPosts/${blog.id}`} >
+          {blog.title}
+        </Link>
+      </div>
       <span className="my-1.5 text-sm ">
         <span>توسط </span>
         <span>

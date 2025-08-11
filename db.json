@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "کاپشن زمستانی",
       "price": "850,000",
       "rating": 4.9,
@@ -9,7 +9,7 @@
       "off": "2"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "کفش اسپرت مردانه",
       "price": "650,000",
       "rating": 4.8,
@@ -17,7 +17,7 @@
       "off": "30"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "کوله پشتی دخترانه",
       "price": "430,000",
       "rating": 4.7,
@@ -25,7 +25,7 @@
       "off": "6"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "کوله پشتی دخترانه",
       "price": "430,000",
       "rating": 4.7,
@@ -33,7 +33,7 @@
       "off": "9"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "کوله پشتی دخترانه",
       "price": "430,000",
       "rating": 4.7,
@@ -41,7 +41,7 @@
       "off": "12"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "کوله پشتی دخترانه",
       "price": "430,000",
       "rating": 4.7,
@@ -49,7 +49,7 @@
       "off": "10"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "کوله پشتی دخترانه",
       "price": "430,000",
       "rating": 4.7,
@@ -59,176 +59,303 @@
   ],
   "bestSellers": [
     {
-      "id": 1,
+      "id": "1",
       "name": "مانتو بهاره",
       "price": 1850000,
       "discountPrice": 1490000,
       "imagePrimary": "/images/bestSellers/manto_1.jpg",
       "imageHover": "/images/bestSellers/manto_1_hover.jpg",
-      "colors": ["#D95D39", "#6B7AA1", "#F2C57C"]
+      "colors": [
+        "#D95D39",
+        "#6B7AA1",
+        "#F2C57C"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "مانتو اداری",
       "price": 2450000,
       "discountPrice": 1990000,
       "imagePrimary": "/images/bestSellers/manto_2.jpg",
       "imageHover": "/images/bestSellers/manto_2_hover.jpg",
-      "colors": ["#3F5EAB", "#E89F9F", "#4C9A2A", "#8C6EFF"]
+      "colors": [
+        "#3F5EAB",
+        "#E89F9F",
+        "#4C9A2A",
+        "#8C6EFF"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "مانتو دخترانه",
       "price": 1350000,
       "discountPrice": 1090000,
       "imagePrimary": "/images/bestSellers/manto_3.jpg",
       "imageHover": "/images/bestSellers/manto_3_hover.jpg",
-      "colors": ["#F49AC2", "#2D8F6F", "#FFD166"]
+      "colors": [
+        "#F49AC2",
+        "#2D8F6F",
+        "#FFD166"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "مانتو مجلسی",
       "price": 2950000,
       "discountPrice": 2490000,
       "imagePrimary": "/images/bestSellers/manto_4.jpg",
       "imageHover": "/images/bestSellers/manto_4_hover.jpg",
-      "colors": ["#1F2E5A", "#C77DFF", "#FFB800", "#4A4E69"]
+      "colors": [
+        "#1F2E5A",
+        "#C77DFF",
+        "#FFB800",
+        "#4A4E69"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "مانتو کژوال",
       "price": 1650000,
       "discountPrice": 1390000,
       "imagePrimary": "/images/bestSellers/manto_5.jpg",
       "imageHover": "/images/bestSellers/manto_5_hover.jpg",
-      "colors": ["#5AA897", "#F28C38", "#E0AFA0"]
+      "colors": [
+        "#5AA897",
+        "#F28C38",
+        "#E0AFA0"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "مانتو سنتی",
       "price": 2150000,
       "discountPrice": 1790000,
       "imagePrimary": "/images/bestSellers/manto_6.jpg",
       "imageHover": "/images/bestSellers/manto_6_hover.jpg",
-      "colors": ["#8B5E3C", "#C0D6DF", "#A64AC9", "#F0E3CA"]
+      "colors": [
+        "#8B5E3C",
+        "#C0D6DF",
+        "#A64AC9",
+        "#F0E3CA"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "مانتو جدید",
       "price": 2550000,
       "discountPrice": 2190000,
       "imagePrimary": "/images/bestSellers/manto_7.jpg",
       "imageHover": "/images/bestSellers/manto_7_hover.jpg",
-      "colors": ["#FF6B6B", "#4ECDC4", "#556270"]
+      "colors": [
+        "#FF6B6B",
+        "#4ECDC4",
+        "#556270"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "مانتو مدل دار",
       "price": 2750000,
       "discountPrice": 2290000,
       "imagePrimary": "/images/bestSellers/manto_8.jpg",
       "imageHover": "/images/bestSellers/manto_8_hover.jpg",
-      "colors": ["#264653", "#2A9D8F", "#E9C46A", "#F4A261"]
+      "colors": [
+        "#264653",
+        "#2A9D8F",
+        "#E9C46A",
+        "#F4A261"
+      ]
     }
   ],
   "mostViewedProduct": [
     {
-      "id": 1,
+      "id": "1",
       "name": "مانتو بهاره",
       "price": 1850000,
       "discountPrice": 1490000,
       "imagePrimary": "/images/bestSellers/manto_1.jpg",
       "imageHover": "/images/bestSellers/manto_1_hover.jpg",
-      "colors": ["#D95D39", "#6B7AA1", "#F2C57C"]
+      "colors": [
+        "#D95D39",
+        "#6B7AA1",
+        "#F2C57C"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "مانتو اداری",
       "price": 2450000,
       "discountPrice": 1990000,
       "imagePrimary": "/images/bestSellers/manto_2.jpg",
       "imageHover": "/images/bestSellers/manto_2_hover.jpg",
-      "colors": ["#3F5EAB", "#E89F9F", "#4C9A2A", "#8C6EFF"]
+      "colors": [
+        "#3F5EAB",
+        "#E89F9F",
+        "#4C9A2A",
+        "#8C6EFF"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "مانتو دخترانه",
       "price": 1350000,
       "discountPrice": 1090000,
       "imagePrimary": "/images/bestSellers/manto_3.jpg",
       "imageHover": "/images/bestSellers/manto_3_hover.jpg",
-      "colors": ["#F49AC2", "#2D8F6F", "#FFD166"]
+      "colors": [
+        "#F49AC2",
+        "#2D8F6F",
+        "#FFD166"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "مانتو مجلسی",
       "price": 2950000,
       "discountPrice": 2490000,
       "imagePrimary": "/images/bestSellers/manto_4.jpg",
       "imageHover": "/images/bestSellers/manto_4_hover.jpg",
-      "colors": ["#1F2E5A", "#C77DFF", "#FFB800", "#4A4E69"]
+      "colors": [
+        "#1F2E5A",
+        "#C77DFF",
+        "#FFB800",
+        "#4A4E69"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "مانتو کژوال",
       "price": 1650000,
       "discountPrice": 1390000,
       "imagePrimary": "/images/bestSellers/manto_5.jpg",
       "imageHover": "/images/bestSellers/manto_5_hover.jpg",
-      "colors": ["#5AA897", "#F28C38", "#E0AFA0"]
+      "colors": [
+        "#5AA897",
+        "#F28C38",
+        "#E0AFA0"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "مانتو سنتی",
       "price": 2150000,
       "discountPrice": 1790000,
       "imagePrimary": "/images/bestSellers/manto_6.jpg",
       "imageHover": "/images/bestSellers/manto_6_hover.jpg",
-      "colors": ["#8B5E3C", "#C0D6DF", "#A64AC9", "#F0E3CA"]
+      "colors": [
+        "#8B5E3C",
+        "#C0D6DF",
+        "#A64AC9",
+        "#F0E3CA"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "مانتو جدید",
       "price": 2550000,
       "discountPrice": 2190000,
       "imagePrimary": "/images/bestSellers/manto_7.jpg",
       "imageHover": "/images/bestSellers/manto_7_hover.jpg",
-      "colors": ["#FF6B6B", "#4ECDC4", "#556270"]
+      "colors": [
+        "#FF6B6B",
+        "#4ECDC4",
+        "#556270"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "مانتو مدل دار",
       "price": 2750000,
       "discountPrice": 2290000,
       "imagePrimary": "/images/bestSellers/manto_8.jpg",
       "imageHover": "/images/bestSellers/manto_8_hover.jpg",
-      "colors": ["#264653", "#2A9D8F", "#E9C46A", "#F4A261"]
+      "colors": [
+        "#264653",
+        "#2A9D8F",
+        "#E9C46A",
+        "#F4A261"
+      ]
     }
   ],
   "blogPosts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "راهنمای انتخاب مانتو برای فصل تابستان",
       "date": "۱۴۰۳/۰۵/۰۵",
-      "cover" : "/images/blogs/blog-1.jpg",
-      "author": "مسترمانتو",
-      "content": "با شروع فصل گرما، انتخاب مانتویی که هم سبک باشد و هم از نظر ظاهری شیک به نظر برسد اهمیت زیادی پیدا می‌کند. مانتوهای نخی و لینن به دلیل خاصیت خنک‌کنندگی و راحتی‌شان از گزینه‌های محبوب در تابستان هستند.\n\nدر انتخاب رنگ هم بهتر است سراغ رنگ‌های روشن و خنثی مانند سفید، کرم یا گلبهی بروید تا در برابر آفتاب کمتر گرما جذب کنند. استفاده از طرح‌های گل‌دار یا مینیمال نیز می‌تواند استایلتان را تازه‌تر نشان دهد."
-    },
-    {
-      "id": 2,
-      "title": "۱۰ مدل مانتو ترند سال ۱۴۰۳",
-      "date": "۱۴۰۳/۰۴/۲۲",
-      "cover" : "/images/blogs/blog-2.png",
+      "cover": "/images/blogs/blog-1.jpg",
       "author": "مسترمانتو",
       "content": "سال ۱۴۰۳ با خود سبک‌های متنوعی از مانتو به همراه آورده است. مانتوهای اورسایز با آستین‌های گشاد و مدل‌های پانچو دوباره به دنیای مد بازگشته‌اند. استفاده از پارچه‌های خامه‌دوزی شده و گلدوزی‌های ظریف روی مانتو نیز به شدت ترند شده است.\n\nهمچنین مانتوهای کوتاه‌تر و اسپرت با طرح‌های شطرنجی یا راه‌راه در بین جوان‌ترها محبوبیت بیشتری پیدا کرده‌اند. اگر به دنبال ظاهری امروزی هستید، این مدل‌ها را از دست ندهید."
     },
     {
-      "id": 3,
+      "id": "2",
+      "title": "۱۰ مدل مانتو ترند سال ۱۴۰۳",
+      "date": "۱۴۰۳/۰۴/۲۲",
+      "cover": "/images/blogs/blog-2.png",
+      "author": "مسترمانتو",
+      "content": "سال ۱۴۰۳ با خود سبک‌های متنوعی از مانتو به همراه آورده است. مانتوهای اورسایز با آستین‌های گشاد و مدل‌های پانچو دوباره به دنیای مد بازگشته‌اند. استفاده از پارچه‌های خامه‌دوزی شده و گلدوزی‌های ظریف روی مانتو نیز به شدت ترند شده است.\n\nهمچنین مانتوهای کوتاه‌تر و اسپرت با طرح‌های شطرنجی یا راه‌راه در بین جوان‌ترها محبوبیت بیشتری پیدا کرده‌اند. اگر به دنبال ظاهری امروزی هستید، این مدل‌ها را از دست ندهید."
+    },
+    {
+      "id": "3",
       "title": "چطور با مانتو جذاب‌تر به نظر برسیم؟",
       "date": "۱۴۰۳/۰۳/۱۵",
-      "cover" : "/images/blogs/blog-3.png",
+      "cover": "/images/blogs/blog-3.png",
       "author": "مسترمانتو",
       "content": "انتخاب یک مانتو جذاب فقط به مدل آن مربوط نمی‌شود، بلکه باید به ترکیب رنگ، فرم بدن و نوع پارچه نیز توجه داشته باشید. مانتوهایی که فرم بدن را بهتر نشان می‌دهند معمولاً تأثیر بصری بیشتری دارند و باعث می‌شوند استایل شما چشمگیرتر باشد.\n\nاضافه کردن اکسسوری‌های ساده مانند کمربند، کیف مناسب یا حتی یک روسری هماهنگ نیز می‌تواند ظاهر شما را تکمیل کند. به‌خاطر داشته باشید که سادگی در عین شیک بودن، کلید یک استایل موفق است."
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "5",
+      "name": "مانتو کژوال",
+      "price": 1650000,
+      "discountPrice": 1390000,
+      "imagePrimary": "/images/bestSellers/manto_5.jpg",
+      "imageHover": "/images/bestSellers/manto_5_hover.jpg",
+      "colors": [
+        "#5AA897",
+        "#F28C38",
+        "#E0AFA0"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "مانتو سنتی",
+      "price": 2150000,
+      "discountPrice": 1790000,
+      "imagePrimary": "/images/bestSellers/manto_6.jpg",
+      "imageHover": "/images/bestSellers/manto_6_hover.jpg",
+      "colors": [
+        "#8B5E3C",
+        "#C0D6DF",
+        "#A64AC9",
+        "#F0E3CA"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "مانتو جدید",
+      "price": 2550000,
+      "discountPrice": 2190000,
+      "imagePrimary": "/images/bestSellers/manto_7.jpg",
+      "imageHover": "/images/bestSellers/manto_7_hover.jpg",
+      "colors": [
+        "#FF6B6B",
+        "#4ECDC4",
+        "#556270"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "مانتو بهاره",
+      "price": 1850000,
+      "discountPrice": 1490000,
+      "imagePrimary": "/images/bestSellers/manto_1.jpg",
+      "imageHover": "/images/bestSellers/manto_1_hover.jpg",
+      "colors": [
+        "#D95D39",
+        "#6B7AA1",
+        "#F2C57C"
+      ]
     }
   ]
 }

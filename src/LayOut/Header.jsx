@@ -8,6 +8,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaPinterestSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 export default function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -33,15 +34,15 @@ export default function Header() {
         <div className=" flex-row gap-x-2 hidden md:flex items-center ">
           <button type="button"  className="relative">
             <CiUser size={24} />
-            <div className="absolute flex items-center gap-x-1 w-36 py-1 -left-12  bg-amber-200 px-5">
+            {/* <div className="absolute flex items-center gap-x-1 w-36 py-1 -left-12  bg-amber-200 px-5">
               <span>ورود</span>
               /
               <span>ثبت نام</span>
-            </div>
+            </div> */}
           </button>
-          <button type="button">
+          <Link to={'/wishlist'}>
             <IoIosHeartEmpty size={24} />
-          </button>
+          </Link>
           <button type="button">
             <IoIosSearch size={26} />
           </button>

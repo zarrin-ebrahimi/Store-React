@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-100 p-5 flex justify-between gap-x-5 ">
+    <div className="bg-gray-100 p-5 flex flex-col md:flex-row justify-between gap-5 ">
       <div>
         <span className="font-bold ">درباره ی ما</span>
         <p className="max-w-[370px] mt-3  text-gray-500  text-sm">

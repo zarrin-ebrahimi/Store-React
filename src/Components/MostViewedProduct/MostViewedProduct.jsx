@@ -1,28 +1,31 @@
 
-// import ProductCardBestSeler from "../BestSellars/ProductCardBestSeler"; 
-import ProductCardMostViewed from './ProductCardMostViewed'
+import ProductCardMostViewed from "./ProductCardMostViewed";
 import Title from "../Title";
 import { useFetchProducts } from "../../Hooks/useFetchProducts";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, A11y } from "swiper/modules";
+import Loader from "../Loader";
 export default function MostViewedProduct() {
-  const { data: products = [], loading, error, refetch } = useFetchProducts('http://localhost:4000/mostViewedProduct');
+  const {
+    data: products = [],
+    loading,
+    error,
+    refetch,
+  } = useFetchProducts("http://localhost:4000/mostViewedProduct");
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center p-8">
-        <div className="animate-spin rounded-full h-10 w-10 border-4 border-t-4 border-gray-300 border-t-gray-600"></div>
-        <span className="mr-3 text-gray-600">در حال بارگذاری...</span>
-      </div>
-    );
+    return <Loader />;
   }
 
   if (error) {
     return (
       <div className="p-6 bg-red-50 border border-red-200 rounded-md text-center">
-        <div className="text-red-700 mb-2">خطا: {error?.message || 'خطایی پیش آمده'}</div>
+        <div className="text-red-700 mb-2">
+          خطا: {error?.message || "خطایی پیش آمده"}
+        </div>
         <button
-          onClick={()=>refetch}
+          type="button"
+          onClick={() => refetch()}
           className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
         >
           تلاش دوباره
@@ -30,6 +33,7 @@ export default function MostViewedProduct() {
       </div>
     );
   }
+  console.log(products);
   if (!Array.isArray(products) || products.length === 0) {
     return (
       <div className="p-4 text-center text-gray-500">
@@ -39,7 +43,7 @@ export default function MostViewedProduct() {
   }
   return (
     <section className=" px-4 relative ">
-      <Title title="پرفروش ترین" />
+      <Title title="پربازدیدترین" />
       <Swiper
         modules={[Autoplay, A11y]}
         autoplay={{
