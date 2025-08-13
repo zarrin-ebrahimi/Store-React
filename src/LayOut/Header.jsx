@@ -19,19 +19,18 @@ export default function Header() {
         <HiOutlineBars3BottomRight
           size={30}
           onClick={() => setIsSidebarOpen(true)}
-          className="md:hidden"
+          className="lg:hidden"
         />
-        <div className="flex-row gap-x-2 hidden md:flex">
+        <div className="flex-row gap-x-2 hidden lg:flex">
           <FaPinterestSquare  size={20}/>
           <IoLogoInstagram  size={20}/>
           <IoLogoWhatsapp  size={20}/>
           <FaTelegramPlane   size={20}/>
         </div>
       </div>
-
       <img src="./2222.png" alt="" className="w-15 " />
       <div className="flex gap-x-2 ">
-        <div className=" flex-row gap-x-2 hidden md:flex items-center ">
+        <div className=" flex-row gap-x-2 hidden lg:flex items-center ">
           <button type="button"  className="relative">
             <CiUser size={24} />
             {/* <div className="absolute flex items-center gap-x-1 w-36 py-1 -left-12  bg-amber-200 px-5">

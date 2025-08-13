@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CommentForm() {
   return (
-              <div className="mb-12">
+              <div className="my-12">
             <form action="" className="flex flex-col  ">
               <span className="text-gray-400">دیدگاهتان را بنویسید</span>
               <span className="text-gray-400 text-sm my-3">
@@ -14,7 +14,7 @@ export default function CommentForm() {
                 <textarea
                   name=""
                   id=""
-                  className="w-full bg-gray-100 border border-gray-300 my-3 h-40"
+                  className="w-full bg-gray-50 border border-gray-200 my-3 h-40"
                 ></textarea>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -25,7 +25,7 @@ export default function CommentForm() {
                   </label>
                   <input
                     type="text"
-                    className=" p-2 rounded bg-gray-100 border border-gray-300"
+                    className=" p-2 rounded bg-gray-50 border border-gray-200"
                   />
                 </div>
                 {/* Input Groupe */}
@@ -35,7 +35,7 @@ export default function CommentForm() {
                   </label>
                   <input
                     type="text"
-                    className=" p-2 rounded bg-gray-100 border border-gray-300"
+                    className=" p-2 rounded bg-gray-50 border border-gray-200"
                   />
                 </div>
                 {/* Input Groupe */}
@@ -45,7 +45,7 @@ export default function CommentForm() {
                   </label>
                   <input
                     type="text"
-                    className=" p-2 rounded bg-gray-100 border border-gray-300"
+                    className=" p-2 rounded bg-gray-50 border border-gray-200"
                   />
                 </div>
               </div>
